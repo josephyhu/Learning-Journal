@@ -179,15 +179,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views\users" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\app\Models" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\app\Http\Controllers" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\public" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\database\seeders" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views\users" />
     </key>
   </component>
   <component name="RunManager">
