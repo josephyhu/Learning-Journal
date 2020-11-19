@@ -59,11 +59,6 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
-    public function categories()
-    {
-        return $this->belongsToMany('App\Models\Category');
-    }
-
     public function entries()
     {
         return $this->belongsToMany('App\Models\Entry');
