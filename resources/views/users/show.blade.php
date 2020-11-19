@@ -18,7 +18,7 @@
         @foreach ($user->entries as $entry)
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <a href="{{ route('entries.show', $entry->id) }}">{{ $entry->name }}</a>
+                    <a href="{{ route('entries.show', $entry->id) }}">{{ $entry->title }}</a>
                 </div>
             </div>
         @endforeach
