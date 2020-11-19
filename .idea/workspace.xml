@@ -179,15 +179,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views\users" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\app\Models" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\app\Http\Controllers" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\public" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\database\seeders" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views\users" />
     </key>
   </component>
   <component name="RunManager">
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605826420566</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update files.">
+      <created>1605826974724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605826974724</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,10 +293,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="630" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1605812024587" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605826425045">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605826978866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605826425045" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605826978866" />
     <state x="549" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605815637563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

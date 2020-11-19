@@ -25,12 +25,6 @@ class CreateUsersTable extends Migration
             $table->timestamps();
         });
 
-        Schema::create('entry_user', function (Blueprint $table) {
-            $table->foreignId('entry_id')->constrained('entries');
-            $table->foreignId('user_id')->constrained('users');
-        });
-
-        Schema::enableForeignKeyConstraints();
     }
 
     /**
