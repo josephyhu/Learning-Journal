@@ -14,10 +14,6 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('categories')->insert([
-            'name' => 'Joseph Yhu',
-            'email' => 'xbhlx7@gmail.com',
-            'password' => 'VqrYKUGmC4c3&wo@*I$f'
-        ]);
+        //
     }
 }
