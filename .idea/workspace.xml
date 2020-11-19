@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204f616e-6e6d-458a-b16a-0dcac23c78de" name="Default Changelist" comment="Update workspace.xml.">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="204f616e-6e6d-458a-b16a-0dcac23c78de" name="Default Changelist" comment="Update workspace.xml." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="user-authentication" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,15 +179,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views\users" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\app\Models" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\app\Http\Controllers" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\public" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\database\seeders" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views\users" />
     </key>
   </component>
   <component name="RunManager">
