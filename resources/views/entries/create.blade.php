@@ -49,11 +49,11 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <label for="category_id">Category ID:</label><br>
+                    <label for="category">Categories</label><br>
+                    <select name="categories[]" id="category"></select>
                     @foreach ($categories as $category)
-                        {{ $category->id }}: {{ $category->name }}<br>
+                        <option value="{{ $category->id }}">{{ $category->name }}</option>
                     @endforeach
-                    <input type="number" name="category_id" class="form-control" id="category_id">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
