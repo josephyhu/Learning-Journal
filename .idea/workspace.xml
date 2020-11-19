@@ -19,30 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204f616e-6e6d-458a-b16a-0dcac23c78de" name="Default Changelist" comment="Update workspace.xml.">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/category_user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_19_202256_create_category_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/EntryTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/EntryTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/entries/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entries/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/entries/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entries/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/entries/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entries/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/entries/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entries/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/entries/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entries/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="204f616e-6e6d-458a-b16a-0dcac23c78de" name="Default Changelist" comment="Update workspace.xml." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,15 +177,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views\users" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\app\Models" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\app\Http\Controllers" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\public" />
       <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\database\seeders" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xbhlx\PhpstormProjects\Learning-Journal\resources\views\users" />
     </key>
   </component>
   <component name="RunManager">
