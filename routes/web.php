@@ -21,3 +21,7 @@ Route::get('/', function () {
 
 Route::resource('categories', CategoryController::class);
 Route::resource('entries', EntryController::class);
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
