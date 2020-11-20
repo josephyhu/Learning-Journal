@@ -7,6 +7,8 @@ A journal where a user can add entries for online courses that they have taken c
 * MySQL 8
 * PHP 7
 
+https://img.shields.io/github/license/josephyhu/learning-journal?style=plastic
+
 ## Routes
 ### Category Routes
 * `/categories`: Listing of all categories
