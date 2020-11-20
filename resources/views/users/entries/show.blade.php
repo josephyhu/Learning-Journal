@@ -17,11 +17,6 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                By <a href="{{ route('users.show', $entry->users->first->pivot->id) }}">{{ $entry->users->first->pivot->name }}</a>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
                 {{ $entry->created_at }}
             </div>
         </div>

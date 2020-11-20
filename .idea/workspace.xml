@@ -221,6 +221,7 @@
       <workItem from="1605839799390" duration="4305000" />
       <workItem from="1605844508665" duration="325000" />
       <workItem from="1605844849392" duration="3777000" />
+      <workItem from="1605851215594" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1605811978073</created>
@@ -320,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605848642423</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update workspace.xml">
+      <created>1605851250394</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605851250394</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +355,8 @@
     <MESSAGE value="Added register link to the login page." />
     <MESSAGE value="Update files." />
     <MESSAGE value="Fixed some bugs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some bugs." />
+    <MESSAGE value="Update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605824680972">
@@ -366,10 +375,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605829388859" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605848649174">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605851256055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605848649174" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605851256055" />
     <state x="549" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605815637563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

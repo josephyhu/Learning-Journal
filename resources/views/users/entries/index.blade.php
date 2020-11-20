@@ -33,7 +33,6 @@
                 <tr>
                     <td><a href="{{ route('users.entries.show', [$entry->users->first->pivot->id, $entry->id]) }}">{{ $entry->title }}</a></td>
                     <td>{{ $entry->created_at }}</td>
-                    <td><a href="{{ route('users.show', $entry->users->first->pivot->id) }}">{{ $entry->users->first->pivot->name }}</a></td>
                     <td><a href="{{ route('categories.show', $entry->category->id) }}">{{ $entry->category->name }}</a></td>
                     <td>{{ $entry->difficulty }}</td>
                     <td>
