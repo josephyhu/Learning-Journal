@@ -14,6 +14,7 @@ A journal where a user can add entries for online courses that they have taken c
 4. Create an .env file and put in the relevant data (look at the example file).
     * If you want to enable email functionality (like sending a password reset email), you will have to edit the mail settings in the .env file as well.
 5. Run `php artisan migrate`.
+6. (*Optional*) If you want to use the provided categories, run `php artisan db:seed --class=CategoryTableSeeder`.
 6. Run `php artisan serve`.
 
 ## Routes
