@@ -10,19 +10,19 @@ A journal where a user can add entries for online courses that they have taken c
 ## Routes
 ### Category Routes
 * `/categories`: Listing of all categories
-* `/categories/{id}`: Listing of all entries for a category
+* `/categories/{category_id}`: Listing of all entries for a category
 * `/categories/create`: Add a new category
-* `/categories/{id}/edit`: Edit an existing category
+* `/categories/{category_id}/edit`: Edit an existing category
 
 ### Entry Routes
-* `/entries`: Listing of all entries in descending order by date added
-* `/entries/{id}`: A single entry
-* `/entries/create`: Add a new entry
-* `/entries/{id}/edit`: Edit an existing entry
+* `/users/{user_id}/entries`: Listing of all entries in descending order by date added
+* `/users/{user_id}/entries/{entry_id}`: A single entry
+* `/users/{user_id}/entries/create`: Add a new entry
+* `/users/{user_id}/entries/{entry_id}/edit`: Edit an existing entry
 
 ### User Routes
 * `/users`: Listing of all registered users
-* `/users/{id}`: Listing of all entries for a user.
+* `/users/{user_id}`: Listing of all entries for a user.
 
 ## Updates
 ### Update 2
