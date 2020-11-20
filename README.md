@@ -1,6 +1,6 @@
 # Learning Journal
 
-A journal of online courses (mostly from [Treehouse](https://teamtreehouse.com)) that I've taken created with Laravel and with a help from
+A journal where a user can add entries for online courses that they have taken created with Laravel and with a help from
 [this helpful Laravel tutorial](https://www.itsolutionstuff.com/post/laravel-8-crud-application-tutorial-for-beginnersexample.html).
 
 * Laravel 8
