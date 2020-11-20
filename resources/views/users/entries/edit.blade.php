@@ -1,4 +1,4 @@
-@extends('entries.layout')
+@extends('users.entries.layout')
 
 @section('title', 'Edit Entry')
 
@@ -9,7 +9,7 @@
                 <h1>Learning Journal | Edit Entry</h1>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('entries.index') }}">Back</a>
+                <a class="btn btn-primary" href="{{ route('users.entries.index', $user->id) }}">Back</a>
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@
         </div>
     @endif
 
-    <form action="{{ route('entries.update', $entry->id) }}" method="POST">
+    <form action="{{ route('users.entries.update', [$entry->users->first->pivot->id, $entry->id]) }}" method="POST">
         @csrf
         @method('PUT')
 

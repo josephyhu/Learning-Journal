@@ -10,11 +10,11 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
-
+@php($user = auth()->user())
 <div class="container">
     <nav>
         <a href="{{ route('categories.index') }}">Categories</a>
-        <a href="{{ route('entries.index') }}">Entries</a>
+        <a href="{{ route('users.entries.index', $user->id) }}">Entries</a>
         <a href="{{ route('users.index') }}">Users</a>
     </nav>
     @yield('content')

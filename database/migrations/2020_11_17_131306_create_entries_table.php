@@ -19,15 +19,15 @@ class CreateEntriesTable extends Migration
             $table->timestamps();
             $table->integer('hours');
             $table->integer('minutes');
-            $table->foreignId('category_id')->constrained('categories');
+            $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
             $table->string('difficulty', 255);
             $table->text('comments')->default('');
             $table->string('url', 255);
         });
 
         Schema::create('entry_user', function (Blueprint $table) {
-            $table->foreignId('entry_id')->constrained('entries');
-            $table->foreignId('user_id')->constrained('users');
+            $table->foreignId('entry_id')->constrained('entries')->onDelete('cascade');
+            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
         });
 
         Schema::enableForeignKeyConstraints();

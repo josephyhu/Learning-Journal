@@ -23,7 +23,7 @@ class Entry extends Model
 
     public function users()
     {
-        return $this->belongsToMany('App\Models\User');
+        return $this->belongsToMany('App\Models\User', 'entry_user', 'entry_id', 'user_id');
     }
 
     public function getCreatedAtAttribute($value)

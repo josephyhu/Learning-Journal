@@ -4,20 +4,20 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Entry;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class EntryController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
+     * @param User $user
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(User $user)
     {
         $entries = Entry::latest()->paginate(25);
-
-        return view('entries.index', compact('entries'))
+        return view('users.entries.index', compact('user', 'entries'))
             ->with('i', (request()->input('page', 1) - 1) * 25);
     }
 
@@ -29,7 +29,8 @@ class EntryController extends Controller
     public function create()
     {
         $categories = Category::all();
-        return view('entries.create', compact('categories'));
+        $user = auth()->user();
+        return view('users.entries.create', compact('user', 'categories'));
 
     }
 
@@ -53,41 +54,45 @@ class EntryController extends Controller
         $user = auth()->user();
         $user->entries()->attach($entry->id);
 
-        return redirect()->route('entries.index')
+        return redirect()->route('users.entries.index', compact('user'))
             ->with('success', 'Entry created successfully');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  Entry  $entry
+     * @param User $user
+     * @param   Entry  $entry
+     *
      * @return \Illuminate\Http\Response
      */
-    public function show(Entry $entry)
+    public function show(User $user, Entry $entry)
     {
-        return view( 'entries.show', compact('entry'));
+        return view( 'users.entries.show', compact('user', 'entry'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  Entry  $entry
+     * @param User $user
+     * @param   Entry $entry
      * @return \Illuminate\Http\Response
      */
-    public function edit(Entry $entry)
+    public function edit(User $user, Entry $entry)
     {
         $categories = Category::all();
-        return view('entries.edit', compact('entry', 'categories'));
+        return view('users.entries.edit', compact('user', 'entry', 'categories'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
+     * @param User $user
      * @param  Entry  $entry
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Entry $entry)
+    public function update(Request $request, User $user, Entry $entry)
     {
         $request->validate([
             'title' => 'required',
@@ -98,22 +103,21 @@ class EntryController extends Controller
         ]);
 
         $entry->update($request->all());
-
-        return redirect()->route('entries.show', compact('entry'))
+        return redirect()->route('users.entries.show', compact('user', 'entry'))
             ->with('success', 'Entry updated successfully');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  Entry  $entry
+     * @param User $user
+     * @param   Entry $entry
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Entry $entry)
+    public function destroy(User $user, Entry $entry)
     {
         $entry->delete();
-
-        return redirect()->route('entries.index')
+        return redirect()->route('users.entries.index', compact('user'))
             ->with('success', 'Entry deleted successfully');
     }
 }

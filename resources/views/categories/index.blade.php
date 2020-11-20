@@ -1,4 +1,4 @@
-@extends('entries.layout')
+@extends('categories.layout')
 
 @section('title', 'All Categories')
 

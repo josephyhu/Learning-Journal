@@ -1,4 +1,4 @@
-@extends('entries.layout')
+@extends('users.entries.layout')
 
 @section('title', 'Entry Details')
 
@@ -9,12 +9,17 @@
                 <h1>Learning Journal | {{ $entry->title }}</h1>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('entries.index') }}">Back</a>
+                <a class="btn btn-primary" href="{{ route('users.entries.index', $user->id) }}">Back</a>
             </div>
         </div>
     </div>
 
     <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                By <a href="{{ route('users.show', $entry->users->first->pivot->id) }}">{{ $entry->users->first->pivot->name }}</a>
+            </div>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 {{ $entry->created_at }}
@@ -40,12 +45,14 @@
                 <a href="{{ $entry->url }}" target="_blank" rel="noopener">{{ $entry->title }}</a>
             </div>
         </div>
-        <form action="{{ route('entries.destroy', $entry->id) }}" method="POST">
-            <a class="btn btn-primary" href="{{ route('entries.edit', $entry->id) }}">Edit</a>
-            @csrf
-            @method('DELETE')
-            <button type="submit" class="btn btn-danger delete">Delete</button>
-        </form>
+        @if (auth()->user()->id == $entry->users->first->pivot->id)
+            <form action="{{ route('users.entries.destroy', [$entry->users->first->pivot->id, $entry->id]) }}" method="POST">
+                <a class="btn btn-primary" href="{{ route('users.entries.edit', [$entry->users->first->pivot->id, $entry->id]) }}">Edit</a>
+                @csrf
+                @method('DELETE')
+                <button type="submit" class="btn btn-danger delete">Delete</button>
+            </form>
+        @endif
     </div>
 
 @endsection

@@ -1,4 +1,4 @@
-@extends('entries.layout')
+@extends('users.layout')
 
 @section('title', 'All Users')
 

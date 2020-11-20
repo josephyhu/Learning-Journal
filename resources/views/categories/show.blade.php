@@ -1,4 +1,4 @@
-@extends('entries.layout')
+@extends('categories.layout')
 
 @section('title', 'Category')
 
@@ -13,14 +13,15 @@
             </div>
         </div>
     </div>
-
     <div class="row">
         @foreach ($category->entries as $entry)
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
-                    <a href="{{ route('entries.show', $entry->id) }}">{{ $entry->title }}</a>
+            @if (auth()->user()->id == $entry->users->first->pivot->id)
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <a href="{{ route('users.entries.show', [$entry->users->first->pivot->id, $entry->id]) }}">{{ $entry->title }}</a>
+                    </div>
                 </div>
-            </div>
+            @endif
         @endforeach
         <form action="{{ route('categories.destroy', $category->id) }}" method="POST">
             <a class="btn btn-primary" href="{{ route('categories.edit', $category->id) }}">Edit</a>
