@@ -20,6 +20,10 @@ A journal of online courses (mostly from [Treehouse](https://teamtreehouse.com))
 * `/entries/create`: Add a new entry
 * `/entries/{id}/edit`: Edit an existing entry
 
+### User Routes
+* `/users`: Listing of all registered users
+* `/users/{id}`: Listing of all entries for a user.
+
 ## Updates
 ### Update 1
 * Implemented user authentication.
