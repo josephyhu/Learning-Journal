@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204f616e-6e6d-458a-b16a-0dcac23c78de" name="Default Changelist" comment="Fixed some bugs." />
+    <list default="true" id="204f616e-6e6d-458a-b16a-0dcac23c78de" name="Default Changelist" comment="Update files." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,6 +222,7 @@
       <workItem from="1605844508665" duration="325000" />
       <workItem from="1605844849392" duration="3777000" />
       <workItem from="1605851215594" duration="48000" />
+      <workItem from="1605893760735" duration="162000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1605811978073</created>
@@ -328,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605851250394</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update files.">
+      <created>1605893904243</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605893904243</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,10 +361,10 @@
     <MESSAGE value="Update Category.php, Entry.php, and User.php files." />
     <MESSAGE value="Update workspace.xml." />
     <MESSAGE value="Added register link to the login page." />
-    <MESSAGE value="Update files." />
     <MESSAGE value="Fixed some bugs." />
     <MESSAGE value="Update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml" />
+    <MESSAGE value="Update files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update files." />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605824680972">
@@ -375,10 +383,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605829388859" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605851256055">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605893911468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605851256055" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605893911468" />
     <state x="549" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605815637563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

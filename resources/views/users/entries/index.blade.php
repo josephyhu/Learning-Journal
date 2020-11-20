@@ -23,7 +23,6 @@
         <tr>
             <th>Title</th>
             <th>Date and Time</th>
-            <th>User</th>
             <th>Category</th>
             <th>Difficulty</th>
             <th width="280px">Action</th>
