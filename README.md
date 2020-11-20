@@ -16,6 +16,7 @@ A journal where a user can add entries for online courses that they have taken c
 5. Run `php artisan migrate`.
 6. (*Optional*) If you want to use the provided categories, run `php artisan db:seed --class=CategoryTableSeeder`.
 6. Run `php artisan serve`.
+7. Go to `localhost:{PORT_NUMBER}` in your browser.
 
 ## Routes
 ### Main Routes
