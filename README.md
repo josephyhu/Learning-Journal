@@ -8,6 +8,13 @@ A journal where a user can add entries for online courses that they have taken c
 * PHP 7
 
 ## Routes
+### Main Routes
+* `/`: Index
+* `/dashboard`: Home
+* `/register`: Registration form
+* `/login`: Login form
+
+
 ### Category Routes
 * `/categories`: Listing of all categories
 * `/categories/{category_id}`: Listing of all entries for a category
@@ -22,7 +29,8 @@ A journal where a user can add entries for online courses that they have taken c
 
 ### User Routes
 * `/users`: Listing of all registered users
-* `/users/{user_id}`: Listing of all entries for a user.
+* `/users/{user_id}`: Listing of all entries for a user
+* `/user/profile`: User settings
 
 ## Updates
 ### Update 2
