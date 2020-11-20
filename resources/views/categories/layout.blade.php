@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Learning Journal | @yield('title')</title>
+    <title>Learning Journal | @yield('title')</title>
     <meta charset="UTF-8">
     <meta name="description" content="My personal learning journal">
     <meta name="author" content="Joseph Yhu">
@@ -13,8 +13,10 @@
 
 <div class="container">
     <nav>
+        <a href="{{ route('dashboard') }}">Dashboard</a>
         <a href="{{ route('categories.index') }}">Categories</a>
         <a href="{{ route('entries.index') }}">Entries</a>
+        <a href="{{ route('users.index') }}">Users</a>
     </nav>
     @yield('content')
 </div>

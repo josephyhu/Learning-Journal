@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h1>My Learning Journal</h1>
+                <h1>Learning Journal | All Entries</h1>
             </div>
             <div class="pull-right">
                 <a class="btn btn-success" href="{{ route('entries.create') }}">Add New Entry</a>

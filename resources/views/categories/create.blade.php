@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h1>Add Category</h1>
+                <h1>Learning Journal | Add Category</h1>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('categories.index') }}">Back</a>

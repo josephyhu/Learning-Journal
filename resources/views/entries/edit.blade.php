@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h1>Edit Entry</h1>
+                <h1>Learning Journal | Edit Entry</h1>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('entries.index') }}">Back</a>
@@ -50,11 +50,12 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <label for="category_id">Category ID:</label><br>
-                    @foreach ($categories as $category)
-                        {{ $category->id }}: {{ $category->name }}<br>
-                    @endforeach
-                    <input type="number" name="category_id" class="form-control" id="category_id" value="{{ $entry->category_id }}">
+                    <label for="category">Categories</label><br>
+                    <select name="category_id" id="category">
+                        @foreach ($categories as $category)
+                            <option value="{{ $category->id }}">{{ $category->name }}</option>
+                        @endforeach
+                    </select>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
