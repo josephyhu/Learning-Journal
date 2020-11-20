@@ -19,3 +19,7 @@ A journal of online courses (mostly from [Treehouse](https://teamtreehouse.com))
 * `/entries/{id}`: A single entry
 * `/entries/create`: Add a new entry
 * `/entries/{id}/edit`: Edit an existing entry
+
+## Updates
+### Update 1
+* Implemented user authentication.
