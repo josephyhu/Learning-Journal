@@ -7,13 +7,21 @@ A journal where a user can add entries for online courses that they have taken c
 * MySQL 8
 * PHP 7
 
+## How to Run the Program
+1. Download and unzip the project.
+2. Run `composer install`.
+3. Set up a MySQL database and connect to it.
+4. Create an .env file and put in the relevant data (look at the example file).
+    * If you want to enable email functionality (like sending a password reset email), you will have to edit the mail settings in the .env file as well.
+5. Run `php artisan migrate`.
+6. Run `php artisan serve`.
+
 ## Routes
 ### Main Routes
 * `/`: Index
 * `/dashboard`: Home
 * `/register`: Registration form
 * `/login`: Login form
-
 
 ### Category Routes
 * `/categories`: Listing of all categories
