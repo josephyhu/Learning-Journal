@@ -49,7 +49,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <label for="category">Categories</label><br>
+                    <label for="category">Category:</label><br>
                     <select name="category_id" id="category">
                         @foreach ($categories as $category)
                             <option value="{{ $category->id }}">{{ $category->name }}</option>
@@ -60,7 +60,11 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <label for="difficulty">Difficulty:</label>
-                    <input type="text" name="difficulty" class="form-control" id="difficulty">
+                    <select name="difficulty" id="difficulty">
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
