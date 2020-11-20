@@ -30,6 +30,7 @@ class EntryController extends Controller
     {
         $categories = Category::all();
         return view('entries.create', compact('categories'));
+
     }
 
     /**
@@ -48,7 +49,9 @@ class EntryController extends Controller
             'url' => 'required'
         ]);
 
-        Entry::create($request->all());
+        $entry = Entry::create($request->all());
+        $user = auth()->user();
+        $user->entries()->attach($entry->id);
 
         return redirect()->route('entries.index')
             ->with('success', 'Entry created successfully');
