@@ -25,5 +25,8 @@ A journal where a user can add entries for online courses that they have taken c
 * `/users/{id}`: Listing of all entries for a user.
 
 ## Updates
+### Update 2
+* Fixed the bug that enabled users to see other users' entries.
+
 ### Update 1
 * Implemented user authentication.
