@@ -55,7 +55,7 @@ A journal where a user can add entries for online courses that they have taken c
 * (DELETE) `/categories/(category_id}`: Delete an entry
 
 ### Entry Routes
-* (GET) `/users/{user_id}/entries: Listing of all entries
+* (GET) `/users/{user_id}/entries`: Listing of all entries
 * (GET) `/users/{user_id}/entries/{entry_id}`: A single entry
 
 ### User Routes
