@@ -60,7 +60,7 @@ A journal where a user can add entries for online courses that they have taken c
 
 ### User Routes
 * (GET) `/users`: Listing of all registered users
-* (GET) `/users`: A single user
+* (GET) `/users/{user_id}`: A single user
 
 ## Updates
 ### Update 3
