@@ -50,7 +50,7 @@ A journal where a user can add entries for online courses that they have taken c
 ### Category Routes
 * (GET) `/categories`: Listing of all categories
 * (GET) `/categories/{category_id}`: Listing of all entries for a category
-* (POST) `/categories` Create a category
+* (POST) `/categories`: Create a category
 * (PUT/PATCH) `/categories/{category_id}`: Edit an existing category
 * (DELETE) `/categories/(category_id}`: Delete an entry
 
