@@ -8,6 +8,7 @@ A journal where a user can add entries for online courses that they have taken c
 * PHP 7
 
 ![Laravel](https://github.com/josephyhu/Learning-Journal/workflows/Laravel/badge.svg)
+![PHP Composer](https://github.com/josephyhu/Learning-Journal/workflows/PHP%20Composer/badge.svg)
 
 ## How to Run the Program
 1. Download and unzip the project.
