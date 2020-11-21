@@ -8,6 +8,7 @@ A journal where a user can add entries for online courses that they have taken c
 * PHP 7
 
 ![Build](https://img.shields.io/github/workflow/status/josephyhu/learning-journal/Laravel)
+![License]https://img.shields.io/github/license/josephyhu/learning-journal
 
 ## How to Run the Program
 1. Download and unzip the project.
