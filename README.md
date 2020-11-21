@@ -22,7 +22,7 @@ A journal where a user can add entries for online courses that they have taken c
 6. Run `php artisan serve`.
 7. Go to `localhost:{PORT_NUMBER}` in your browser.
 
-## Routes
+## Web Routes
 ### Main Routes
 * `/`: Index
 * `/dashboard`: Home
@@ -46,7 +46,26 @@ A journal where a user can add entries for online courses that they have taken c
 * `/users/{user_id}`: Listing of all entries for a user
 * `/user/profile`: User settings
 
+## API Routes
+### Category Routes
+* (GET) `/categories`: Listing of all categories
+* (GET) `/categories/{category_id}`: Listing of all entries for a category
+* (POST) `/categories` Create a category
+* (PUT/PATCH) `/categories/{category_id}`: Edit an existing category
+* (DELETE) `/categories/(category_id}`: Delete an entry
+
+### Entry Routes
+* (GET) `/users/{user_id}/entries: Listing of all entries
+* (GET) `/users/{user_id}/entries/{entry_id}`: A single entry
+
+### User Routes
+* (GET) `/users`: Listing of all registered users
+* (GET) `/users`: A single user
+
 ## Updates
+### Update 3
+* Added API functionality.
+
 ### Update 2
 * Fixed the bug that enabled users to see other users' entries.
 
