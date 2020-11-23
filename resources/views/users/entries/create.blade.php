@@ -37,6 +37,12 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
+                    <label for="dateTime">Date and Time:</label>
+                    <input type="datetime-local" name="dateTime" class="form-control" id="dateTime">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
                     <label for="hours">Hours:</label>
                     <input type="number" name="hours" class="form-control" id="hours" min="0">
                 </div>

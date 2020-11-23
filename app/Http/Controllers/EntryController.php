@@ -44,6 +44,7 @@ class EntryController extends Controller
     {
         $request->validate([
             'title' => 'required',
+            'dateTime' => 'required',
             'hours' => 'required',
             'minutes' => 'required',
             'difficulty' => 'required',
@@ -96,6 +97,7 @@ class EntryController extends Controller
     {
         $request->validate([
             'title' => 'required',
+            'dateTime' => 'required',
             'hours' => 'required',
             'minutes' => 'required',
             'difficulty' => 'required',

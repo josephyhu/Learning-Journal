@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204f616e-6e6d-458a-b16a-0dcac23c78de" name="Default Changelist" comment="Update files.">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/api/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/api/EntryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/api/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/UserResource.php" afterDir="false" />
+    <list default="true" id="204f616e-6e6d-458a-b16a-0dcac23c78de" name="Default Changelist" comment="Added api functionality.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EntryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EntryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Entry.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Entry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_17_131306_create_entries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_17_131306_create_entries_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/entries/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/entries/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/entries/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/entries/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/entries/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/entries/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +245,8 @@
       <workItem from="1605913293756" duration="15000" />
       <workItem from="1605914382821" duration="1481000" />
       <workItem from="1605917017359" duration="61000" />
-      <workItem from="1605918101417" duration="5361000" />
+      <workItem from="1605918101417" duration="5840000" />
+      <workItem from="1606102072910" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1605811978073</created>
@@ -386,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605915694588</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added api functionality.">
+      <created>1605923777825</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605923777825</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +423,8 @@
     <MESSAGE value="Fixed some bugs." />
     <MESSAGE value="Update workspace.xml" />
     <MESSAGE value="Update files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update files." />
+    <MESSAGE value="Added api functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added api functionality." />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="67" key="#CLI_Interpreters" timestamp="1605915473067">
@@ -445,10 +455,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605915477131" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605915698721">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605923781312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605915698721" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605923781312" />
     <state x="549" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605815637563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

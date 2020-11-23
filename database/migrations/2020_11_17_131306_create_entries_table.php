@@ -16,7 +16,7 @@ class CreateEntriesTable extends Migration
         Schema::create('entries', function (Blueprint $table) {
             $table->id();
             $table->string('title', 255);
-            $table->timestamps();
+            $table->dateTime('dateTime');
             $table->integer('hours');
             $table->integer('minutes');
             $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
