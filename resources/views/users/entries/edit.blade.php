@@ -39,9 +39,9 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <label for="date">Date<span class="required">*</span>:</label>
-                    <input type="date" name="date_created" class="form-control" id="date" value="{{ $entry->date_created }}">
+                    <input type="date" name="date_created" class="form-control" id="date" value="{{ $entry->date_created->format('Y-m-d') }}">
                     <label for="time">Time<span class="required">*</span>:</label>
-                    <input type="time" name="time_created" class="form-control" id="time" value="{{ $entry->time_created }}">
+                    <input type="time" name="time_created" class="form-control" id="time" value="{{ $entry->time_created->format('H:i') }}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
