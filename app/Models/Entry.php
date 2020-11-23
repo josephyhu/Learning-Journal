@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Entry extends Model
 {
     protected $table = 'entries';
+    public $timestamps = false;
     protected $fillable = [
         'title',
         'date',
