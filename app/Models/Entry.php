@@ -14,7 +14,7 @@ class Entry extends Model
         'minutes',
         'category_id',
         'difficulty',
-        'comments',
+        'notes',
         'url'
     ];
 

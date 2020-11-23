@@ -21,7 +21,7 @@ class CreateEntriesTable extends Migration
             $table->integer('minutes');
             $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
             $table->string('difficulty', 255);
-            $table->text('comments')->default('');
+            $table->text('notes')->default('');
             $table->string('url', 255);
         });
 
