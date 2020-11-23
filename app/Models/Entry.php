@@ -9,7 +9,8 @@ class Entry extends Model
     protected $table = 'entries';
     protected $fillable = [
         'title',
-        'dateTime',
+        'date',
+        'time',
         'hours',
         'minutes',
         'category_id',

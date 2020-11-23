@@ -38,8 +38,10 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <label for="dateTime">Date and Time<span class="required">*</span>:</label>
-                    <input type="datetime-local" name="dateTime" class="form-control" id="dateTime">
+                    <label for="date">Date<span class="required">*</span>:</label>
+                    <input type="date" name="date" class="form-control" id="date" value="{{ $entry->date }}">
+                    <label for="time">Time<span class="required">*</span>:</label>
+                    <input type="time" name="time" class="form-control" id="time" value="{{ $entry->time }}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
