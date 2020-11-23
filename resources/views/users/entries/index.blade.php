@@ -18,7 +18,6 @@
             <p>{{ $message }}</p>
         </div>
     @endif
-
     <table class="table table-bordered">
         <tr>
             <th>Title</th>
@@ -31,7 +30,7 @@
             @if ($user->id == $entry->users->first->pivot->id)
                 <tr>
                     <td><a href="{{ route('users.entries.show', [$entry->users->first->pivot->id, $entry->id]) }}">{{ $entry->title }}</a></td>
-                    <td>{{ $entry->date }} {{ $entry->time }}</td>
+                    <td>{{ $entry->date->format('F d, y')  }} {{ $entry->time->format('H:i')  }}</td>
                     <td><a href="{{ route('categories.show', $entry->category->id) }}">{{ $entry->category->name }}</a></td>
                     <td>{{ $entry->difficulty }}</td>
                     <td>

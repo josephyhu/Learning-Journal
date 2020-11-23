@@ -16,7 +16,7 @@ class EntryController extends Controller
      */
     public function index(User $user)
     {
-        $entries = Entry::latest()->paginate(25);
+        $entries = Entry::orderBy('date', 'desc')->orderBy('time', 'desc')->paginate(25);
         return view('users.entries.index', compact('user', 'entries'))
             ->with('i', (request()->input('page', 1) - 1) * 25);
     }

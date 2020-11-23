@@ -17,7 +17,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                {{ $entry->date }} {{ $entry->time }}
+                {{ $entry->date->format('F d, y')  }} {{ $entry->time->format('H:i') }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -32,7 +32,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                {{ $entry->comments }}
+                {{ $entry->notes }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
