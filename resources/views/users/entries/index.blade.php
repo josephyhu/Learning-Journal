@@ -30,7 +30,7 @@
             @if ($user->id == $entry->users->first->pivot->id)
                 <tr>
                     <td><a href="{{ route('users.entries.show', [$entry->users->first->pivot->id, $entry->id]) }}">{{ $entry->title }}</a></td>
-                    <td>{{ $entry->date->format('F d, Y')  }} {{ $entry->time->format('H:i')  }}</td>
+                    <td>{{ $entry->date_created->format('F d, Y')  }} {{ $entry->time_created->format('H:i')  }}</td>
                     <td><a href="{{ route('categories.show', $entry->category->id) }}">{{ $entry->category->name }}</a></td>
                     <td>{{ $entry->difficulty }}</td>
                     <td>

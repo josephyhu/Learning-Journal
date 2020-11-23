@@ -17,7 +17,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                {{ $entry->date->format('F d, Y')  }} {{ $entry->time->format('H:i') }}
+                {{ $entry->date_created->format('F d, Y')  }} {{ $entry->time_created->format('H:i') }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">

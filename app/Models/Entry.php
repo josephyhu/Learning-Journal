@@ -10,8 +10,8 @@ class Entry extends Model
     public $timestamps = false;
     protected $fillable = [
         'title',
-        'date',
-        'time',
+        'date_created',
+        'time_created',
         'hours',
         'minutes',
         'category_id',
@@ -19,7 +19,7 @@ class Entry extends Model
         'notes',
         'url'
     ];
-    protected $dates = ['date', 'time'];
+    protected $dates = ['date_created', 'time_created'];
 
     public function category() {
         return $this->belongsTo(Category::class, 'category_id');

@@ -23,6 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EntryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EntryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Entry.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Entry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_17_131306_create_entries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_17_131306_create_entries_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/entries/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/entries/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/entries/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/entries/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/entries/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/entries/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/entries/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/entries/show.blade.php" afterDir="false" />
     </list>
@@ -245,7 +248,8 @@
       <workItem from="1605917017359" duration="61000" />
       <workItem from="1605918101417" duration="5840000" />
       <workItem from="1606102072910" duration="625000" />
-      <workItem from="1606102816409" duration="4080000" />
+      <workItem from="1606102816409" duration="4276000" />
+      <workItem from="1606107406692" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1605811978073</created>
@@ -422,7 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606104922061</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update files.">
+      <created>1606107068908</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1606107068908</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update files.">
+      <created>1606107110925</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606107110925</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,10 +500,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605915477131" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606104926057">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606107115191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606104926057" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606107115191" />
     <state x="549" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605815637563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
