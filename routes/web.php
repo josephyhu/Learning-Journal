@@ -20,9 +20,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('users', UserController::class);
-Route::resource('categories', CategoryController::class);
-Route::resource( 'users.entries', EntryController::class );
+Route::middleware(['auth:sanctum', 'verified'])->resource('users', UserController::class);
+Route::middleware(['auth:sanctum', 'verified'])->resource('categories', CategoryController::class);
+Route::middleware(['auth:sanctum', 'verified'])->resource( 'users.entries', EntryController::class );
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

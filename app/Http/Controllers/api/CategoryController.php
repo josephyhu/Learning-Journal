@@ -15,7 +15,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return response(Category::all(), 200);
+        return response( Category::all(), 200 );
     }
 
     /**
