@@ -68,12 +68,10 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <label for="difficulty">Difficulty<span class="required">*</span>:</label>
-                    <select name="difficulty" id="difficulty">
-                        <option value="Beginner">Beginner</option>
-                        <option value="Intermediate">Intermediate</option>
-                        <option value="Advanced">Advanced</option>
-                    </select>
+                    <label>Difficulty<span class="required">*</span>:</label><br>
+                    <input type="radio" id="beginner" value="Beginner" name="difficulty"><label for="beginner">Beginner</label><br>
+                    <input type="radio" id="intermediate" value="Intermediate" name="difficulty"><label for="intermediate">Intermediate</label><br>
+                    <input type="radio" id="advanced" value="Advanced" name="difficulty"><label for="advanced">Advanced</label>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
