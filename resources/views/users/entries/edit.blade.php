@@ -76,7 +76,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <label for="notes">Notes:</label>
+                    <label for="notes">Notes<span class="required">*</span>:</label>
                     <textarea name="notes" class="form-control" id="notes" rows="5">{{ $entry->notes }}</textarea>
                 </div>
             </div>

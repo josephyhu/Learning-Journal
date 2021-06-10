@@ -49,6 +49,7 @@ class EntryController extends Controller
             'hours' => 'required',
             'minutes' => 'required',
             'difficulty' => 'required',
+            'notes' => 'required',
             'url' => 'required'
         ]);
 
@@ -103,6 +104,7 @@ class EntryController extends Controller
             'hours' => 'required',
             'minutes' => 'required',
             'difficulty' => 'required',
+            'notes' => 'required',
             'url' => 'required'
         ]);
 
